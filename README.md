@@ -34,3 +34,16 @@ Aplikacija je realizovana kao full-stack projekat sa jasno razdvojenim frontend 
 
 Backend dio aplikacije radi na portu **8800**.  
 Frontend dio aplikacije radi na portu **3000**.
+
+## 🔐 Autentifikacija i autorizacija
+
+Aplikacija koristi autentifikaciju korisnika putem korisničkog imena i lozinke.  
+Prilikom prijave, sistem provjerava validnost unesenih podataka i omogućava pristup zaštićenim dijelovima aplikacije samo prijavljenim korisnicima.
+
+Autorizacija je implementirana tako da samo prijavljeni korisnici mogu:
+
+- kreirati nove objave
+- uređivati postojeće objave
+- brisati svoje objave
+
+Neautorizovani korisnici imaju pristup isključivo javnom sadržaju aplikacije.
