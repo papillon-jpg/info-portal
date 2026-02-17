@@ -1,7 +1,8 @@
 # Info Portal
 
 Info Portal je web aplikacija namijenjena objavljivanju i pregledanju informativnih članaka iz različitih kategorija kao što su vijesti, sport, biznis, kultura i druge oblasti.  
-Aplikacija je realizovana kao full-stack projekat sa jasno razdvojenim frontend i backend dijelom.
+Izvršava sve CRUD operacije koristeći React, Node.js i MySQL.
+Aplikacija je realizovana kao full-stack projekat: baze podataka i serverskog dijela, a zatim izradu React frontenda za interakciju s bazom.
 
 ---
 
